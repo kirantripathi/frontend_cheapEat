@@ -11,7 +11,7 @@ const page = () => {
 
 
   //hook which redirect user back to home page if not authenticated
- useProtectedRoute();
+
   const {updateUser,isPending} = useUpdateMyUser()
    const {currentUser,isLoading} = useGetMyUser()
 
