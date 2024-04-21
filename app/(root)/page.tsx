@@ -35,7 +35,7 @@ const Home = () => {
         <p>image below</p>
         <Image src={landing} height={80} width={80}  alt="Landing Image" />
 
-        <span className="text-xl">Food is just a click away!</span>
+        <span className="text-xl">Food is just a click away ooooo!</span>
   
 
         <SearchBar  />
