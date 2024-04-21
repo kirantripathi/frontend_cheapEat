@@ -39,6 +39,9 @@ const Home = () => {
         </div>
         </div>
 
+<p>image below</p>
+        <Image src={landing} height={80} width={80}  alt="Landing Image" />
+
         <Image
          src ={landing}
          alt="landing image"
