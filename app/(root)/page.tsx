@@ -30,6 +30,11 @@ const Home = () => {
         <h1 className="text-5xl font-bold tracking-tight text-orange-600">
           Tuck into a takeway today
         </h1>
+ 
+
+        <p>image below</p>
+        <Image src={landing} height={80} width={80}  alt="Landing Image" />
+
         <span className="text-xl">Food is just a click away!</span>
   
 
@@ -39,8 +44,7 @@ const Home = () => {
         </div>
         </div>
 
-<p>image below</p>
-        <Image src={landing} height={80} width={80}  alt="Landing Image" />
+
 
         <Image
          src ={landing}
