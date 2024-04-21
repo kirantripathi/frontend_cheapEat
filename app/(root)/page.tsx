@@ -3,6 +3,11 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import SearchBar from '@/components/SearchBar';
+import home from "../../assets/home.png"
+import landing from "../../assets/landing.png"
+import appDownload from "../../assets/appDownload.png"
+
+
 
 const Home = () => {
  
@@ -12,7 +17,7 @@ const Home = () => {
     <main className="flex justify-center h-full">
     <div className="w-[90%] h-full ">
           <Image
-         src ="/assets/home.png"
+         src ={home}
          alt="landing image"
       width={0}
          height={0}
@@ -35,7 +40,7 @@ const Home = () => {
         </div>
 
         <Image
-         src ="/assets/landing.png"
+         src ={landing}
          alt="landing image"
       width={0}
          height={0}
@@ -57,7 +62,7 @@ const Home = () => {
 
 
 <Image
-         src ="/assets/appDownload.png"
+         src ={appDownload}
          alt="landing image"
       width={0}
          height={0}
