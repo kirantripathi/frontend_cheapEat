@@ -7,7 +7,7 @@ import UserProfileForm from '@/components/userForm/userProfileForm'
 import React from 'react'
 
 
-const page = () => {
+const Page = () => {
 
 
   //hook which redirect user back to home page if not authenticated
@@ -35,4 +35,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
